@@ -1,6 +1,6 @@
 # Learning Room - MVVM
 
-This is code for a sample app by built while following the Google codelab - Android Room with a View - Kotlin
+This is code for a sample app built while following the Google codelab - Android Room with a View - Kotlin
 
 This app supports adding words in a list and persisting it in local Room database
 
