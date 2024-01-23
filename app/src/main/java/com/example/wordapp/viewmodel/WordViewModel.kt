@@ -12,9 +12,9 @@ class WordViewModel constructor(
     private val wordRepository: WordRepository
 ) : ViewModel() {
 
-    val words: LiveData<List<Word>> = wordRepository.allWords.asLiveData()
+    val allWords: LiveData<List<Word>> = wordRepository.allWords.asLiveData()
 
-    suspend fun insertWord(word: Word) = viewModelScope.launch {
+    fun insertWord(word: Word) = viewModelScope.launch {
         wordRepository.insert(word)
     }
 
