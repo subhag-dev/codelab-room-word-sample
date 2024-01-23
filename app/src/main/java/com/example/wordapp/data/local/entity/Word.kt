@@ -1,4 +1,4 @@
-package com.example.wordapp.data.entity
+package com.example.wordapp.data.local.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
